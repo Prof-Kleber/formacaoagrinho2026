@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>página teste</title>
+    <title>AgroFuturo: Produção e Meio Ambiente</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>🌱 AgroFuturo </h1>
+        <p>Equilíbrio entre Produção e Meio Ambiente</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>O Futuro é Sustentável</h2>
+            <p>O agronegócio moderno prova que é possível produzir alimentos em larga escala e, ao mesmo tempo, preservar e até recuperar a natureza. Conheça as práticas que estão mudando o campo!</p>
+        </section>
+
+        <section class="cards-container">
+            <div class="card">
+                <h3>🌳 ILPF</h3>
+                <p>A Integração Lavoura-Pecuária-Floresta combina árvores, pasto e plantação no mesmo espaço. Isso melhora o solo e reduz a emissão de gases estufa.</p>
+            </div>
+            <div class="card">
+                <h3>🐛 Bioinsumos</h3>
+                <p>Uso de fungos e bactérias naturais da terra para combater pragas e nutrir as plantas, reduzindo o uso de defensivos químicos.</p>
+            </div>
+            <div class="card">
+                <h3>💧 Agricultura de Precisão</h3>
+                <p>Uso de drones e sensores para aplicar água e nutrientes apenas onde a planta realmente precisa, evitando desperdícios.</p>
+            </div>
+        </section>
+
+        <section class="quiz-section">
+            <h2>🧠 Teste seus Conhecimentos</h2>
+            <p>Qual prática agrícola combina árvores, plantação e gado na mesma área?</p>
+            
+            <div class="quiz-options">
+                <button onclick="verificarResposta('a')">A) Monocultura Intensiva</button>
+                <button onclick="verificarResposta('b')">B) Integração Lavoura-Pecuária-Floresta</button>
+                <button onclick="verificarResposta('c')">C) Desmatamento Controlado</button>
+            </div>
+            
+            <p id="resultado-quiz" class="resultado"></p>
+        </section>
+            </main>
+
+    <footer>
+        <p>Projeto desenvolvido para o Concurso Agrinho 2026 | Produzido por um Jovem Inovador</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
